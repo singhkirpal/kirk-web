@@ -1,0 +1,379 @@
+{
+
+    padding: .5rem;
+
+  }
+
+ 
+
+  body {
+
+    padding: .1rem;
+
+    background-color:#212121;
+
+    color: white;
+
+    font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+
+    max-width: 100vw;
+
+  }
+
+ 
+
+  header {
+
+    display: flex;
+
+    flex-flow: column nowrap;
+
+    letter-spacing: 2px;
+
+    font-weight: bold;
+
+  }
+
+ 
+
+  ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    flex-flow: column wrap;
+
+  }
+
+ 
+
+  .field {
+
+    padding: 2rem 1rem;
+
+    background-color: rgba(255,255,255,.1);
+
+    margin: .5rem;
+
+    letter-spacing: 3px;
+
+    transition: all .4s ease;
+
+    cursor: pointer;
+
+    overflow: scroll;
+
+  }
+
+ 
+
+  .field.active {
+
+    cursor: normal;
+
+    margin-left: .5rem;
+
+  }
+
+ 
+
+  .notshow {
+
+    display: none;
+
+  }
+
+ 
+
+  .field.active .notshow {
+
+    display: block;
+
+    word-wrap: break-word;
+
+  }
+
+ 
+
+  .fielda {
+
+    padding: 2rem 1rem;
+
+    background-color: rgba(255,255,255,.1);
+
+    margin: .5rem;
+
+    letter-spacing: 3px;
+
+    transition: all .4s ease;
+
+    cursor: pointer;
+
+  }
+
+ 
+
+  .fielda.active {
+
+    cursor: normal;
+
+    margin-left: .5rem;
+
+  }
+
+ 
+
+  .fielda.active .notshow {
+
+    display: block;
+
+  }
+
+ 
+
+  .lb {
+
+    color: lightblue;
+
+  }
+
+ 
+
+  .hp {
+
+    color: hotpink;
+
+  }
+
+ 
+
+  .gr {
+
+    color: grey;
+
+  }
+
+ 
+
+  .lg {
+
+    color:  #99ffdd;
+
+  }
+
+ 
+
+  .bg {
+
+    color:  #33cccc;
+
+  }
+
+ 
+
+  .or {
+
+    color: orange;
+
+  }
+
+ 
+
+  .red {
+
+    color: #ff8080;
+
+  }
+
+ 
+
+  footer {
+
+    font-weight: bold;
+
+  }
+
+ 
+
+  button {
+
+    background-color: rgba(0,0,0,0);
+
+    border: 1px solid rgba(255,255,255,.3);
+
+    border-radius: 3px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+  }
+
+ 
+
+  .hello {
+
+    width: 100%;
+
+    height: 80vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+
+ 
+
+  .hello-title {
+
+    text-align: center;
+
+    display: block;
+
+    color: white;
+
+    font-size: 4rem;
+
+    margin: 0;
+
+    padding: 0;
+
+    transition: all .2s ease;
+
+  }
+
+ 
+
+  a {
+
+    text-decoration: none;
+
+    color: white;
+
+    padding: 0;
+
+    transition: all .5s ease;
+
+  }
+
+ 
+
+  .wrapper {
+
+    opacity: 1;
+
+    transition: all .5s ease;
+
+    height: 100%;
+
+  }
+
+ 
+
+  .splash {
+
+    height: 0;
+
+    opacity: 0;
+
+  }
+
+ 
+
+  .description {
+
+    letter-spacing: 1px;
+
+  }
+
+ 
+
+  span {
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+ 
+
+  i {
+
+    font-size: 1.4rem;
+
+  }
+
+ 
+
+  footer p {
+
+    margin: 0;
+
+  }
+
+ 
+
+  @media screen and (min-width: 700px) {
+
+    header {
+
+      flex-flow: row nowrap;
+
+    }
+
+ 
+
+    body {
+
+      padding: .5rem;
+
+    }
+
+ 
+
+    .field, .fielda {
+
+      margin-left: 5%;
+
+    }
+
+ 
+
+    .field:hover, .fielda:hover {
+
+      background-color: rgba(255,255,255,.18);
+
+      letter-spacing: 5px;
+
+      margin-left: .5rem;
+
+    }
+
+ 
+
+    .active:hover {
+
+      background-color: rgba(255,255,255,.18);
+
+      letter-spacing: 3px;
+
+    }
+
+ 
+
+    a:hover {
+
+      color: hotpink;
+
+    }
+
+  }

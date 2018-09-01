@@ -1,0 +1,3 @@
+Hi folks. Welcome to heaven of learning platform. I am currently working as a Programmer Analyst at Cognizant, being a Software Developer my job is to develop front end using AngularJS for machine learning platforms. 
+I am bit emotional too which is why I created a separate path for learning experience and got attracted with Node, Angular 2+. I have working experience with Java, Python as well. 
+Apart from my software side, I had a keen interest in reading books and writing too.
